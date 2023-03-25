@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include orax_soft_Theme_V1 *.css
+recursive-include orax_soft_Theme_V1 *.csv
+recursive-include orax_soft_Theme_V1 *.html
+recursive-include orax_soft_Theme_V1 *.ico
+recursive-include orax_soft_Theme_V1 *.js
+recursive-include orax_soft_Theme_V1 *.json
+recursive-include orax_soft_Theme_V1 *.md
+recursive-include orax_soft_Theme_V1 *.png
+recursive-include orax_soft_Theme_V1 *.py
+recursive-include orax_soft_Theme_V1 *.svg
+recursive-include orax_soft_Theme_V1 *.txt
+recursive-exclude orax_soft_Theme_V1 *.pyc
